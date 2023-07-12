@@ -370,6 +370,9 @@ button{
     border: 3px solid #0a64ac;
     opacity: 0.5;
     z-index: -1;
+    -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 /*Section Heading For Dark Background*/
 .bg-dark .section-heading span{
