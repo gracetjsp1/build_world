@@ -562,7 +562,8 @@ ul.nav li.phone{
     color: #263a4f;
     font-weight: 600;
     line-height: 80px;
-    padding-left: 50px;
+    /* padding-left: 20px; */
+    padding-right: 80px;
 }
 ul.nav li.phone i{
     color: #0a64ac;
@@ -1152,6 +1153,28 @@ section#choose_us{
     opacity: 1;
     z-index: 1;
 }
+.project-item .view-icon{
+    position: absolute;
+    width: auto;
+    height: auto;
+    right: 50%;
+    top: 45%;
+    display: block;
+    font-size: 25px;
+    color: #fff;
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+    -webkit-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    transition: all 400ms ease;
+}
+.project-item:hover .view-icon{
+    cursor: pointer;
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+}
 /* Project Style 2
 ===================*/
 .project-2 {
@@ -1595,12 +1618,12 @@ section#choose_us{
    Page Header Section
    ========================================================================== */
 .page-header{
-    background-image: url(../img/page-header.jpg);
+    background-image: url(../img/web\ banner-02.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     width: 100%;
-    height: 400px;
+    height: 500px;
     display: flex;
     align-items: center;
     position: relative;

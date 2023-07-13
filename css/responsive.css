@@ -7,7 +7,7 @@
 }
 
 /* ---- Start of max-width 992px CSS ---- */
-@media (max-width: 1200px){
+@media (max-width: 1212px){
     .sm-padding{ padding: 15px; }
     .header-section .navbar-brand {
         height: 90px;
